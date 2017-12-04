@@ -71,6 +71,7 @@ public class HBaseTest {
 
     static {
         try {
+            //master和worker的ip必须先在本地的hosts文件配置一下
             conf = HBaseConfiguration.create();
             conf.set("hbase.zookeeper.property.clientPort", "2181");
             conf.set("hbase.zookeeper.quorum", "master,worker");
@@ -198,7 +199,7 @@ public class HBaseTest {
         JavaRDD<String> lines = sc.textFile("hdfs://master:9000/Hadoop/Input/test.txt");
         JavaRDD<String> words = lines.flatMap(new FlatMapFunction<String, String>() {
             @Override
-            public Iterator<String> call(String s) {
+            public Iterator<String> call(String s) {//flatMap与map的区别是flatMap会把所有行生成的数组合并成一个总的数组
                 String[] words=s.split(" ");
                 return Arrays.asList(words).iterator();
             }
@@ -228,9 +229,9 @@ public class HBaseTest {
         // TODO Auto-generated method stub
 
         SparkConf conf1 = new SparkConf().setAppName(
-                "DrCleaner_Retention_Rate_Geo_2_to_14").set("spark.executor.memory", "2000m").setMaster(
+                "test_2_to_14").set("spark.executor.memory", "2000m").setMaster(
                 "spark://10.64.66.215:7077").set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-                .setJars(new String[]{"/D:/Perforce2/Core/TMMSMDM/Dev/TMMSMDM_Android-9.8/Tmms4Android/JniTest2/hbase/build/libs/hbase.jar"});
+                .setJars(new String[]{"/D:/AndroidStudioProjects/SparkDemo/build/libs/hbase.jar"});//自定义类必须包含进去，否则data node找不到里面的内容
         conf1.set("spark.cores.max", "4");
         SparkSession spark = SparkSession
                 .builder()
@@ -348,7 +349,7 @@ public class HBaseTest {
 
             Job newAPIJobConfiguration1 = Job.getInstance(conf);
             newAPIJobConfiguration1.getConfiguration().set(TableOutputFormat.OUTPUT_TABLE, "scores");
-            newAPIJobConfiguration1.setOutputFormatClass(org.apache.hadoop.hbase.mapreduce.TableOutputFormat.class);
+            newAPIJobConfiguration1.setOutputFormatClass(TableOutputFormat.class);
 
             // create Key, Value pair to store in HBase
             JavaPairRDD<ImmutableBytesWritable, Put> hbasePuts = data.javaRDD().mapToPair(
