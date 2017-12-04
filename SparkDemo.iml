@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":SparkDemo" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":SparkDemo" />
+      </configuration>
+    </facet>
+    <facet type="java-gradle" name="Java-Gradle">
+      <configuration>
+        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/build" />
+        <option name="BUILDABLE" value="true" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="2" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="jvmTarget" value="1.6" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesWarn" value="true" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/build/classes/main" />
+    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="activation-1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="antlr-2.7.7" level="project" />
+    <orderEntry type="library" exported="" name="antlr-runtime-3.4" level="project" />
+    <orderEntry type="library" exported="" name="antlr4-runtime-4.5.3" level="project" />
+    <orderEntry type="library" exported="" name="aopalliance-1.0" level="project" />
+    <orderEntry type="library" exported="" name="aopalliance-repackaged-2.4.0-b34" level="project" />
+    <orderEntry type="library" exported="" name="apache-log4j-extras-1.2.17" level="project" />
+    <orderEntry type="library" exported="" name="apacheds-i18n-2.0.0-M15" level="project" />
+    <orderEntry type="library" exported="" name="apacheds-kerberos-codec-2.0.0-M15" level="project" />
+    <orderEntry type="library" exported="" name="api-asn1-api-1.0.0-M20" level="project" />
+    <orderEntry type="library" exported="" name="api-util-1.0.0-M20" level="project" />
+    <orderEntry type="library" exported="" name="arpack_combined_all-0.1" level="project" />
+    <orderEntry type="library" exported="" name="avro-1.7.7" level="project" />
+    <orderEntry type="library" exported="" name="avro-ipc-1.7.7" level="project" />
+    <orderEntry type="library" exported="" name="avro-mapred-1.7.7-hadoop2" level="project" />
+    <orderEntry type="library" exported="" name="base64-2.3.8" level="project" />
+    <orderEntry type="library" exported="" name="bcprov-jdk15on-1.51" level="project" />
+    <orderEntry type="library" exported="" name="bonecp-0.8.0.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="breeze-macros_2.11-0.12" level="project" />
+    <orderEntry type="library" exported="" name="breeze_2.11-0.12" level="project" />
+    <orderEntry type="library" exported="" name="calcite-avatica-1.2.0-incubating" level="project" />
+    <orderEntry type="library" exported="" name="calcite-core-1.2.0-incubating" level="project" />
+    <orderEntry type="library" exported="" name="calcite-linq4j-1.2.0-incubating" level="project" />
+    <orderEntry type="library" exported="" name="chill-java-0.8.0" level="project" />
+    <orderEntry type="library" exported="" name="chill_2.11-0.8.0" level="project" />
+    <orderEntry type="library" exported="" name="commons-beanutils-1.7.0" level="project" />
+    <orderEntry type="library" exported="" name="commons-beanutils-core-1.8.0" level="project" />
+    <orderEntry type="library" exported="" name="commons-cli-1.2" level="project" />
+    <orderEntry type="library" exported="" name="commons-codec-1.10" level="project" />
+    <orderEntry type="library" exported="" name="commons-collections-3.2.2" level="project" />
+    <orderEntry type="library" exported="" name="commons-compiler-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="commons-compress-1.4.1" level="project" />
+    <orderEntry type="library" exported="" name="commons-configuration-1.6" level="project" />
+    <orderEntry type="library" exported="" name="commons-crypto-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="commons-dbcp-1.4" level="project" />
+    <orderEntry type="library" exported="" name="commons-digester-1.8" level="project" />
+    <orderEntry type="library" exported="" name="commons-httpclient-3.1" level="project" />
+    <orderEntry type="library" exported="" name="commons-io-2.4" level="project" />
+    <orderEntry type="library" exported="" name="commons-lang-2.6" level="project" />
+    <orderEntry type="library" exported="" name="commons-lang3-3.5" level="project" />
+    <orderEntry type="library" exported="" name="commons-logging-1.1.3" level="project" />
+    <orderEntry type="library" exported="" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" exported="" name="commons-math3-3.4.1" level="project" />
+    <orderEntry type="library" exported="" name="commons-net-2.2" level="project" />
+    <orderEntry type="library" exported="" name="commons-pool-1.5.4" level="project" />
+    <orderEntry type="library" exported="" name="compress-lzf-1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="core-1.1.2" level="project" />
+    <orderEntry type="library" exported="" name="curator-client-2.6.0" level="project" />
+    <orderEntry type="library" exported="" name="curator-framework-2.6.0" level="project" />
+    <orderEntry type="library" exported="" name="curator-recipes-2.6.0" level="project" />
+    <orderEntry type="library" exported="" name="datanucleus-api-jdo-3.2.6" level="project" />
+    <orderEntry type="library" exported="" name="datanucleus-core-3.2.10" level="project" />
+    <orderEntry type="library" exported="" name="datanucleus-rdbms-3.2.9" level="project" />
+    <orderEntry type="library" exported="" name="derby-10.12.1.1" level="project" />
+    <orderEntry type="library" exported="" name="eigenbase-properties-1.1.5" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
+    <orderEntry type="library" exported="" name="guava-14.0.1" level="project" />
+    <orderEntry type="library" exported="" name="guice-3.0" level="project" />
+    <orderEntry type="library" exported="" name="guice-servlet-3.0" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-annotations-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-auth-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-client-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-common-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-hdfs-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-mapreduce-client-app-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-mapreduce-client-common-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-mapreduce-client-core-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-mapreduce-client-jobclient-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-mapreduce-client-shuffle-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-yarn-api-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-yarn-client-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-yarn-common-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-yarn-server-common-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hadoop-yarn-server-web-proxy-2.6.4" level="project" />
+    <orderEntry type="library" exported="" name="hbase-client-1.2.6" level="project" />
+    <orderEntry type="library" exported="" name="hbase-common-1.2.6" level="project" />
+    <orderEntry type="library" exported="" name="hbase-protocol-1.2.6" level="project" />
+    <orderEntry type="library" exported="" name="hbase-server-1.2.6" level="project" />
+    <orderEntry type="library" exported="" name="hive-beeline-1.2.1.spark2" level="project" />
+    <orderEntry type="library" exported="" name="hive-cli-1.2.1.spark2" level="project" />
+    <orderEntry type="library" exported="" name="hive-exec-1.2.1.spark2" level="project" />
+    <orderEntry type="library" exported="" name="hive-jdbc-1.2.1.spark2" level="project" />
+    <orderEntry type="library" exported="" name="hive-metastore-1.2.1.spark2" level="project" />
+    <orderEntry type="library" exported="" name="hk2-api-2.4.0-b34" level="project" />
+    <orderEntry type="library" exported="" name="hk2-locator-2.4.0-b34" level="project" />
+    <orderEntry type="library" exported="" name="hk2-utils-2.4.0-b34" level="project" />
+    <orderEntry type="library" exported="" name="htrace-core-3.0.4" level="project" />
+    <orderEntry type="library" exported="" name="htrace-core-3.1.0-incubating" level="project" />
+    <orderEntry type="library" exported="" name="httpclient-4.5.2" level="project" />
+    <orderEntry type="library" exported="" name="httpcore-4.4.4" level="project" />
+    <orderEntry type="library" exported="" name="ivy-2.4.0" level="project" />
+    <orderEntry type="library" exported="" name="jackson-annotations-2.6.5" level="project" />
+    <orderEntry type="library" exported="" name="jackson-core-2.6.5" level="project" />
+    <orderEntry type="library" exported="" name="jackson-core-asl-1.9.13" level="project" />
+    <orderEntry type="library" exported="" name="jackson-databind-2.6.5" level="project" />
+    <orderEntry type="library" exported="" name="jackson-jaxrs-1.9.13" level="project" />
+    <orderEntry type="library" exported="" name="jackson-mapper-asl-1.9.13" level="project" />
+    <orderEntry type="library" exported="" name="jackson-module-paranamer-2.6.5" level="project" />
+    <orderEntry type="library" exported="" name="jackson-module-scala_2.11-2.6.5" level="project" />
+    <orderEntry type="library" exported="" name="jackson-xc-1.9.13" level="project" />
+    <orderEntry type="library" exported="" name="janino-3.0.0" level="project" />
+    <orderEntry type="library" exported="" name="java-xmlbuilder-1.0" level="project" />
+    <orderEntry type="library" exported="" name="JavaEWAH-0.3.2" level="project" />
+    <orderEntry type="library" exported="" name="javassist-3.18.1-GA" level="project" />
+    <orderEntry type="library" exported="" name="javax.annotation-api-1.2" level="project" />
+    <orderEntry type="library" exported="" name="javax.inject-1" level="project" />
+    <orderEntry type="library" exported="" name="javax.inject-2.4.0-b34" level="project" />
+    <orderEntry type="library" exported="" name="javax.servlet-api-3.1.0" level="project" />
+    <orderEntry type="library" exported="" name="javax.ws.rs-api-2.0.1" level="project" />
+    <orderEntry type="library" exported="" name="javolution-5.5.1" level="project" />
+    <orderEntry type="library" exported="" name="jaxb-api-2.2.2" level="project" />
+    <orderEntry type="library" exported="" name="jcl-over-slf4j-1.7.16" level="project" />
+    <orderEntry type="library" exported="" name="jdo-api-3.0.1" level="project" />
+    <orderEntry type="library" exported="" name="jersey-client-2.22.2" level="project" />
+    <orderEntry type="library" exported="" name="jersey-common-2.22.2" level="project" />
+    <orderEntry type="library" exported="" name="jersey-container-servlet-2.22.2" level="project" />
+    <orderEntry type="library" exported="" name="jersey-container-servlet-core-2.22.2" level="project" />
+    <orderEntry type="library" exported="" name="jersey-guava-2.22.2" level="project" />
+    <orderEntry type="library" exported="" name="jersey-media-jaxb-2.22.2" level="project" />
+    <orderEntry type="library" exported="" name="jersey-server-2.22.2" level="project" />
+    <orderEntry type="library" exported="" name="jets3t-0.9.3" level="project" />
+    <orderEntry type="library" exported="" name="jetty-6.1.26" level="project" />
+    <orderEntry type="library" exported="" name="jetty-util-6.1.26" level="project" />
+    <orderEntry type="library" exported="" name="jline-2.12.1" level="project" />
+    <orderEntry type="library" exported="" name="joda-time-2.9.3" level="project" />
+    <orderEntry type="library" exported="" name="jodd-core-3.5.2" level="project" />
+    <orderEntry type="library" exported="" name="jpam-1.1" level="project" />
+    <orderEntry type="library" exported="" name="json4s-ast_2.11-3.2.11" level="project" />
+    <orderEntry type="library" exported="" name="json4s-core_2.11-3.2.11" level="project" />
+    <orderEntry type="library" exported="" name="json4s-jackson_2.11-3.2.11" level="project" />
+    <orderEntry type="library" exported="" name="jsr305-1.3.9" level="project" />
+    <orderEntry type="library" exported="" name="jta-1.1" level="project" />
+    <orderEntry type="library" exported="" name="jtransforms-2.4.0" level="project" />
+    <orderEntry type="library" exported="" name="jul-to-slf4j-1.7.16" level="project" />
+    <orderEntry type="library" exported="" name="kryo-shaded-3.0.3" level="project" />
+    <orderEntry type="library" exported="" name="leveldbjni-all-1.8" level="project" />
+    <orderEntry type="library" exported="" name="libfb303-0.9.2" level="project" />
+    <orderEntry type="library" exported="" name="libthrift-0.9.2" level="project" />
+    <orderEntry type="library" exported="" name="log4j-1.2.17" level="project" />
+    <orderEntry type="library" exported="" name="lz4-1.3.0" level="project" />
+    <orderEntry type="library" exported="" name="mail-1.4.7" level="project" />
+    <orderEntry type="library" exported="" name="mesos-1.0.0-shaded-protobuf" level="project" />
+    <orderEntry type="library" exported="" name="metrics-core-2.2.0" level="project" />
+    <orderEntry type="library" exported="" name="metrics-core-3.1.2" level="project" />
+    <orderEntry type="library" exported="" name="metrics-graphite-3.1.2" level="project" />
+    <orderEntry type="library" exported="" name="metrics-json-3.1.2" level="project" />
+    <orderEntry type="library" exported="" name="metrics-jvm-3.1.2" level="project" />
+    <orderEntry type="library" exported="" name="minlog-1.3.0" level="project" />
+    <orderEntry type="library" exported="" name="mx4j-3.0.2" level="project" />
+    <orderEntry type="library" exported="" name="netty-3.8.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="netty-all-4.0.42.Final" level="project" />
+    <orderEntry type="library" exported="" name="objenesis-2.1" level="project" />
+    <orderEntry type="library" exported="" name="opencsv-2.3" level="project" />
+    <orderEntry type="library" exported="" name="oro-2.0.8" level="project" />
+    <orderEntry type="library" exported="" name="osgi-resource-locator-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="paranamer-2.3" level="project" />
+    <orderEntry type="library" exported="" name="parquet-column-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="parquet-common-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="parquet-encoding-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="parquet-format-2.3.0-incubating" level="project" />
+    <orderEntry type="library" exported="" name="parquet-hadoop-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="parquet-hadoop-bundle-1.6.0" level="project" />
+    <orderEntry type="library" exported="" name="parquet-jackson-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="pmml-model-1.2.15" level="project" />
+    <orderEntry type="library" exported="" name="pmml-schema-1.2.15" level="project" />
+    <orderEntry type="library" exported="" name="protobuf-java-2.5.0" level="project" />
+    <orderEntry type="library" exported="" name="py4j-0.10.4" level="project" />
+    <orderEntry type="library" exported="" name="pyrolite-4.13" level="project" />
+    <orderEntry type="library" exported="" name="RoaringBitmap-0.5.11" level="project" />
+    <orderEntry type="library" exported="" name="scala-compiler-2.11.8" level="project" />
+    <orderEntry type="library" exported="" name="scala-library-2.11.8" level="project" />
+    <orderEntry type="library" exported="" name="scala-parser-combinators_2.11-1.0.4" level="project" />
+    <orderEntry type="library" exported="" name="scala-reflect-2.11.8" level="project" />
+    <orderEntry type="library" exported="" name="scala-xml_2.11-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="scalap-2.11.8" level="project" />
+    <orderEntry type="library" exported="" name="shapeless_2.11-2.0.0" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-api-1.7.16" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-log4j12-1.7.16" level="project" />
+    <orderEntry type="library" exported="" name="snappy-0.2" level="project" />
+    <orderEntry type="library" exported="" name="snappy-java-1.1.2.6" level="project" />
+    <orderEntry type="library" exported="" name="spark-catalyst_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-core_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-graphx_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-hive-thriftserver_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-hive_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-launcher_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-mesos_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-mllib-local_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-mllib_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-network-common_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-network-shuffle_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-repl_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-sketch_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-sql_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-streaming_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-tags_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-unsafe_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spark-yarn_2.11-2.1.0" level="project" />
+    <orderEntry type="library" exported="" name="spire-macros_2.11-0.7.4" level="project" />
+    <orderEntry type="library" exported="" name="spire_2.11-0.7.4" level="project" />
+    <orderEntry type="library" exported="" name="ST4-4.0.4" level="project" />
+    <orderEntry type="library" exported="" name="stax-api-1.0-2" level="project" />
+    <orderEntry type="library" exported="" name="stax-api-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="stream-2.7.0" level="project" />
+    <orderEntry type="library" exported="" name="stringtemplate-3.2.1" level="project" />
+    <orderEntry type="library" exported="" name="super-csv-2.2.0" level="project" />
+    <orderEntry type="library" exported="" name="univocity-parsers-2.2.1" level="project" />
+    <orderEntry type="library" exported="" name="validation-api-1.1.0.Final" level="project" />
+    <orderEntry type="library" exported="" name="xbean-asm5-shaded-4.4" level="project" />
+    <orderEntry type="library" exported="" name="xercesImpl-2.9.1" level="project" />
+    <orderEntry type="library" exported="" name="xmlenc-0.52" level="project" />
+    <orderEntry type="library" exported="" name="xz-1.0" level="project" />
+    <orderEntry type="library" exported="" name="zookeeper-3.4.6" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_activation_1_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_asm_3_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_avro_1_7_4_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_commons_codec_1_9_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_commons_daemon_1_0_13_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_commons_el_1_0_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_commons_math3_3_1_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_commons_math_2_2_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_commons_net_3_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_disruptor_3_3_0_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_findbugs_annotations_1_3_9_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_guava_12_0_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_annotations_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_auth_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_common_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_hdfs_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_mapreduce_client_app_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_mapreduce_client_common_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_mapreduce_client_core_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_mapreduce_client_jobclient_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_mapreduce_client_shuffle_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_yarn_api_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_yarn_client_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_yarn_common_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hadoop_yarn_server_common_2_5_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_annotations_1_2_6_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_annotations_1_2_6_tests_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_common_1_2_6_tests_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_examples_1_2_6_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_external_blockcache_1_2_6_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_hadoop2_compat_1_2_6_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_hadoop_compat_1_2_6_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_it_1_2_6_tests_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_prefix_tree_1_2_6_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_procedure_1_2_6_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_rest_1_2_6_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_server_1_2_6_tests_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_thrift_1_2_6_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_httpclient_4_2_5_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_httpcore_4_4_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jamon_runtime_2_4_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jasper_compiler_5_5_23_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jasper_runtime_5_5_23_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_java_xmlbuilder_0_4_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jaxb_impl_2_2_3_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jcodings_1_0_8_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jersey_client_1_9_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jersey_core_1_9_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jersey_guice_1_9_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jersey_json_1_9_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jersey_server_1_9_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jets3t_0_9_0_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jettison_1_3_3_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jetty_sslengine_6_1_26_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_joni_2_1_2_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jruby_complete_1_6_8_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jsch_0_1_42_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jsp_2_1_6_1_14_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_jsp_api_2_1_6_1_14_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_junit_4_12_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_libthrift_0_9_3_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_netty_all_4_0_23_Final_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_servlet_api_2_5_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_servlet_api_2_5_6_1_14_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_slf4j_api_1_7_7_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_slf4j_log4j12_1_7_5_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_snappy_java_1_0_4_1_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_spymemcached_2_11_6_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_hbase_jar" level="project" />
+    <orderEntry type="library" exported="" name="D__Perforce2_Core_TMMSMDM_Dev_TMMSMDM_Android_9_8_Tmms4Android_JniTest2_SparkDemo_libs_lib_jar" level="project" />
+  </component>
+</module>
